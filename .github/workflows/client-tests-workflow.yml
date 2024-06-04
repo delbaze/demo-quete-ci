@@ -1,6 +1,8 @@
 name: client-tests-workflow
 
-on: pull_request
+on: 
+  push:
+      branches: ["main"]
 
 jobs:
   test-client:
